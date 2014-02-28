@@ -1,0 +1,12 @@
+{application, ele,
+ [
+  {description, "An example of language on Erlang VM"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ele_app, []}},
+  {env, []}
+ ]}.
